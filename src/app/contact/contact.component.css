@@ -1,0 +1,17 @@
+.payment-logo {
+  width: calc(50% - 10px);
+  margin: 5px;
+  fill: limegreen;
+}
+
+.telephone-logo {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.call-header {
+  margin: 20px 0;
+  align-items: center;
+  display: flex;
+}
+

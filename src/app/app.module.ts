@@ -7,6 +7,8 @@ import { Test2Component } from './test2/test2.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
+import { ContactComponent } from './contact/contact.component';
+import { RefrigerationComponent } from './refrigeration/refrigeration.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HeaderComponent } from './header/header.component';
     Test1Component,
     Test2Component,
     HomepageComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactComponent,
+    RefrigerationComponent
   ],
   imports: [
     BrowserModule,
