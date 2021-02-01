@@ -9,6 +9,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
 import { RefrigerationComponent } from './refrigeration/refrigeration.component';
+import { DishwasherComponent } from './dishwasher/dishwasher.component';
+import { DryersWashersComponent } from './dryers-washers/dryers-washers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { RefrigerationComponent } from './refrigeration/refrigeration.component'
     HomepageComponent,
     HeaderComponent,
     ContactComponent,
-    RefrigerationComponent
+    RefrigerationComponent,
+    DishwasherComponent,
+    DryersWashersComponent
   ],
   imports: [
     BrowserModule,
