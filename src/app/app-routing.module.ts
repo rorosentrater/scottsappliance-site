@@ -5,6 +5,8 @@ import { ContactComponent } from './contact/contact.component';
 import { RefrigerationComponent } from './refrigeration/refrigeration.component';
 import { DishwasherComponent } from './dishwasher/dishwasher.component';
 import { DryersWashersComponent } from './dryers-washers/dryers-washers.component';
+import { AppliancesComponent } from './appliances/appliances.component';
+import { StovesComponent } from './stoves/stoves.component';
 import { Test1Component } from './test1/test1.component';
 import { Test2Component } from './test2/test2.component';
 
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'refrigeration', component: RefrigerationComponent },
   { path: 'dishwashers', component: DishwasherComponent },
   { path: 'dryers-washers', component: DryersWashersComponent },
+  { path: 'appliances', component: AppliancesComponent },
+  { path: 'stoves', component: StovesComponent },
   { path: 'contact', component: ContactComponent },
 
 
