@@ -8,7 +8,6 @@ import { environment } from './../../environments/environment';
 })
 export class ContactComponent implements OnInit {
   constructor() {
-    console.log(environment.production); // Logs false for default environment
   }
   nhContact = environment.nhContact; // TODO: make a phone number pipe?
   nhContactString = environment.nhContactString;
