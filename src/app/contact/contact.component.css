@@ -15,3 +15,13 @@
   display: flex;
 }
 
+.logo-container {
+  /*width: 100%;*/
+  margin: auto;
+}
+.company-logo {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

@@ -2,3 +2,7 @@
 body {
   background-color: #00adee !important; /* !important to override bootstrap */
 }
+
+ul {
+  margin: 0 10px;
+}
