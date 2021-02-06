@@ -4,5 +4,14 @@ body {
 }
 
 ul {
-  margin: 0 10px;
+  list-style-position: inside
+}
+ul.services li {
+  font-size: 0.8em;
+}
+
+app-root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

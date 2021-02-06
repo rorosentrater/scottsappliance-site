@@ -11,6 +11,7 @@ import { DishwasherComponent } from './dishwasher/dishwasher.component';
 import { DryersWashersComponent } from './dryers-washers/dryers-washers.component';
 import { StovesComponent } from './stoves/stoves.component';
 import { AppliancesComponent } from './appliances/appliances.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AppliancesComponent } from './appliances/appliances.component';
     DishwasherComponent,
     DryersWashersComponent,
     StovesComponent,
-    AppliancesComponent
+    AppliancesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

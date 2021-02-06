@@ -1,0 +1,12 @@
+.link:hover {
+  color: white !important;
+}
+.link {
+  white-space: nowrap;
+}
+
+.link-icon {
+  margin-left: 3px;
+  position: relative;
+  bottom: 2px;
+}
