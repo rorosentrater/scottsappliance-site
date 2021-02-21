@@ -7,8 +7,7 @@ import { environment } from './../../environments/environment';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  constructor() {
-  }
+  constructor() { }
   nhContact = environment.nhContact; // TODO: make a phone number pipe?
   nhContactString = environment.nhContactString;
   maContact = environment.maContact;
