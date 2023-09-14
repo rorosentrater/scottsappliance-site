@@ -1,7 +1,15 @@
 .payment-logo {
   width: calc(50% - 10px);
   margin: 5px;
-  fill: limegreen;
+}
+
+.cash-logo {
+  filter: invert(68%) sepia(27%) saturate(4124%) hue-rotate(72deg) brightness(99%) contrast(83%);
+  margin-bottom: -20px;
+}
+
+.cash {
+  font-size: 30px;
 }
 
 .telephone-logo {
